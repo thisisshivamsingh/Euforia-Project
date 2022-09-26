@@ -1,0 +1,52 @@
+.navbar {
+  display: flex;
+  height: 100px;
+  width: 100%;
+  align-items: center;
+}
+
+.logo {
+  position: absolute;
+  display: block;
+  margin-left: 0%;
+}
+
+.logo-right-text {
+  position: absolute;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #787878;
+  margin-left: 47%;
+}
+
+.header {
+  width: 100%;
+}
+
+.choose-your-demo {
+  font-size: 45px;
+}
+
+.homepage-layouts {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #787878;
+}
+
+.layouts {
+  display: flex;
+  justify-content: center;
+}
+
+.layout {
+  border-color: grey;
+  border-style: solid;
+  border-width: 5px;
+  margin: 100px;
+  /* padding: 3px; */
+  height: 400px;
+  width: 250px;
+  background-color: black;
+}

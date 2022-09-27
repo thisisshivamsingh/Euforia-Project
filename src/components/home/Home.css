@@ -114,7 +114,59 @@
   color: white;
 }
 
-.homepage-layout {
-  max-height: 100%;
-  max-width: 100%;
+.scroll-item {
+  position: relative;
+  border: 6px solid grey;
+  height: 600px;
+  width: 400px;
+  margin: 24px;
+  overflow: hidden;
+  box-shadow: 0 1px 17px 0 rgba(0, 0, 0, 0.75);
+}
+.scroll-item:nth-child(1) {
+  background: url("https://github.com/prabinmagar/scroll-image-to-bottom-on-hover-html-css/blob/master/images/web1.png?raw=true");
+  background-size: cover;
+  background-position: top;
+  transition: all 1s ease;
+}
+.scroll-item:nth-child(2) {
+  background: url("https://github.com/prabinmagar/scroll-image-to-bottom-on-hover-html-css/blob/master/images/web2.png?raw=true");
+  background-size: cover;
+  background-position: top;
+  transition: all 1s ease;
+}
+.scroll-item:nth-child(3) {
+  background: url("https://github.com/prabinmagar/scroll-image-to-bottom-on-hover-html-css/blob/master/images/web3.png?raw=true");
+  background-size: cover;
+  background-position: top;
+  transition: all 1s ease;
+}
+.scroll-item img {
+  width: 100%;
+  display: block;
+}
+.scroll-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: flex-start;
+  gap: 3rem;
+  margin: 3rem 0;
+}
+.scroll-item:hover .icons {
+  bottom: 0;
+}
+.scroll-item:hover {
+  background-position: bottom;
+}
+
+@media screen and (max-width: 992px) {
+  .scroll-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .scroll-list {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }

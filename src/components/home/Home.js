@@ -22,16 +22,12 @@ const Home = () => {
       <img src={imgA} alt="header" className="header" />
       <h1 className="choose-your-demo">Choose Your Demo</h1>
       <p className="homepage-layouts">3 Homepage Layouts</p>
-      <div className="layouts">
-        <div className="layout">
-          <img src={imgF} alt="homepage-layout" className="homepage-layout" />
-        </div>
-        <div className="layout">
-          <img src={imgG} alt="homepage-layout" className="homepage-layout" />
-        </div>
-        <div className="layout">
-          <img src={imgH} alt="homepage-layout" className="homepage-layout" />
-        </div>
+      <div className="scroll-list">
+        <div className="scroll-item"></div>
+
+        <div className="scroll-item"></div>
+
+        <div className="scroll-item"></div>
       </div>
       <div className="layouts-names">
         <h3 className="layout-name">FASHION</h3>

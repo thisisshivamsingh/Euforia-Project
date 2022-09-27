@@ -41,12 +41,80 @@
 }
 
 .layout {
-  border-color: grey;
-  border-style: solid;
-  border-width: 5px;
-  margin: 100px;
+  border: 5px solid grey;
+  margin: 116px;
   /* padding: 3px; */
   height: 400px;
   width: 250px;
   background-color: black;
+}
+
+.layouts-names {
+  display: flex;
+  justify-content: center;
+}
+
+.layout-name {
+  margin: auto;
+}
+
+.purchase-now-btn {
+  margin-top: 80px;
+  border: 2px solid rgb(249, 127, 148);
+  border-radius: 50px;
+  background-color: rgb(249, 127, 148);
+  height: 40px;
+  width: 140px;
+}
+
+.purchase-now-text {
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+}
+
+.creating-website-today {
+  font-size: 45px;
+}
+
+.euforia-theme-now {
+  color: rgb(249, 127, 148);
+  font-size: 45px;
+}
+
+.magento-themes {
+  display: flex;
+  justify-content: center;
+}
+
+.magento-theme {
+  border: 8px solid rgb(249, 127, 148);
+  margin: 24px;
+  height: 180px;
+  width: 355px;
+  padding: 0%;
+  background-color: white;
+}
+
+.best-selling-magento-themes {
+  background-color: lightgrey;
+  padding-top: 15px;
+}
+
+.rights-reserved {
+  margin-bottom: 40px;
+}
+
+.magento-theme-img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.best-magneto-theme:hover {
+  color: white;
+}
+
+.homepage-layout {
+  max-height: 100%;
+  max-width: 100%;
 }

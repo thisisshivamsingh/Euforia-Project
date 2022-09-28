@@ -23,11 +23,20 @@ const Home = () => {
       <h1 className="choose-your-demo">Choose Your Demo</h1>
       <p className="homepage-layouts">3 Homepage Layouts</p>
       <div className="scroll-list">
-        <div className="scroll-item"></div>
+        <div className="scroll-item">
+          <button className="button">Purchase Now</button>
+          <button className="button">View Demo</button>
+        </div>
 
-        <div className="scroll-item"></div>
+        <div className="scroll-item">
+          <button className="button">Purchase Now</button>
+          <button className="button">View Demo</button>
+        </div>
 
-        <div className="scroll-item"></div>
+        <div className="scroll-item">
+          <button className="button">Purchase Now</button>
+          <button className="button">View Demo</button>
+        </div>
       </div>
       <div className="layouts-names">
         <h3 className="layout-name">FASHION</h3>
@@ -51,6 +60,9 @@ const Home = () => {
               alt="magento-themeA"
               className="magento-theme-img"
             />
+            <button className="magento-theme-btn">
+              <span className="magento-theme-text">Buy Now</span>
+            </button>
           </div>
           <div className="magento-theme">
             <img
@@ -58,6 +70,9 @@ const Home = () => {
               alt="magento-themeB"
               className="magento-theme-img"
             />
+            <button className="magento-theme-btn">
+              <span className="magento-theme-text">Buy Now</span>
+            </button>
           </div>
           <div className="magento-theme">
             <img
@@ -65,6 +80,9 @@ const Home = () => {
               alt="magento-themeC"
               className="magento-theme-img"
             />
+            <button className="magento-theme-btn">
+              <span className="magento-theme-text">Buy Now</span>
+            </button>
           </div>
         </div>
       </div>

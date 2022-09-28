@@ -114,6 +114,23 @@
   color: white;
 }
 
+.button {
+  display: none;
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 32px 16px;
+  text-align: center;
+  line-height: 4px;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 500px 10px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  width: 137px;
+  height: 30px;
+}
+
 .scroll-item {
   position: relative;
   border: 6px solid grey;
@@ -152,11 +169,53 @@
   gap: 3rem;
   margin: 3rem 0;
 }
-.scroll-item:hover .icons {
+/* .scroll-item:hover .icons {
   bottom: 0;
-}
+} */
 .scroll-item:hover {
   background-position: bottom;
+  border-color: rgb(249, 127, 148);
+}
+
+.scroll-item:hover .button {
+  display: inline-block;
+}
+
+.button:hover {
+  background-color: rgb(249, 127, 148);
+  color: white;
+}
+
+.purchase-now-btn:hover {
+  background-color: black;
+  border-color: black;
+}
+
+.magento-theme-btn {
+  display: none;
+  position: absolute;
+  border: none;
+  text-decoration: none;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  margin-left: -218px;
+  margin-top: 78px;
+  width: 86px;
+  height: 44px;
+}
+
+.magento-theme-text {
+  font-size: 18px;
+  color: white;
+}
+
+.magento-theme:hover .magento-theme-btn {
+  display: inline-block;
+  background-color: rgb(249, 127, 148);
+}
+
+.magento-theme-btn:hover {
+  background-color: black;
 }
 
 @media screen and (max-width: 992px) {

@@ -1,0 +1,28 @@
+.logo {
+  display: inline-block;
+  margin-right: 100px;
+}
+
+.nav-li {
+  float: left;
+}
+
+.nav-ul {
+  list-style-type: none;
+  margin-left: 910px;
+  padding: 0;
+  overflow: hidden;
+}
+
+.nav-li .nav-link {
+  display: block;
+  color: grey;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav-icon {
+  margin-top: 8px;
+  margin-left: 20px;
+}

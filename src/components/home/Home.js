@@ -1,13 +1,16 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import img from "../../assets/logo/euforia-logo.png";
 import imgA from "../../assets/header/header.jpg";
 import imgB from "../../assets/inner/inner.png";
 import imgC from "../../assets/magento_themes/magento-themeA.jpg";
 import imgD from "../../assets/magento_themes/magento-themeB.jpg";
 import imgE from "../../assets/magento_themes/magento-themeC.jpg";
+
 import "./Home.css";
 
 const Home = () => {
+  const navigate = useNavigate();
   return (
     <>
       <div className="navbar">
@@ -23,7 +26,9 @@ const Home = () => {
         <div className="scroll-item">
           <div className="scroll-item-black-layer">
             <button className="button">Purchase Now</button>
-            <button className="button">View Demo</button>
+            <button className="button" onClick={() => navigate("/euforia")}>
+              View Demo
+            </button>
           </div>
         </div>
 

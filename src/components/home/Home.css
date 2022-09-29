@@ -181,6 +181,12 @@
   display: inline-block;
 }
 
+.scroll-item:hover .scroll-item-black-layer {
+  height: 600px;
+  width: 400px;
+  background-color: rgb(8, 7, 7, 0.4);
+}
+
 .button:hover {
   background-color: rgb(249, 127, 148);
   color: white;
@@ -196,6 +202,7 @@
   position: absolute;
   border: none;
   text-decoration: none;
+  background-color: rgb(249, 127, 148);
   transition-duration: 0.4s;
   cursor: pointer;
   margin-left: -218px;
@@ -211,7 +218,6 @@
 
 .magento-theme:hover .magento-theme-btn {
   display: inline-block;
-  background-color: rgb(249, 127, 148);
 }
 
 .magento-theme-btn:hover {

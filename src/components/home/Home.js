@@ -5,9 +5,6 @@ import imgB from "../../assets/inner/inner.png";
 import imgC from "../../assets/magento_themes/magento-themeA.jpg";
 import imgD from "../../assets/magento_themes/magento-themeB.jpg";
 import imgE from "../../assets/magento_themes/magento-themeC.jpg";
-import imgF from "../../assets/layouts/web1.png";
-import imgG from "../../assets/layouts/web2.png";
-import imgH from "../../assets/layouts/web3.png";
 import "./Home.css";
 
 const Home = () => {
@@ -24,18 +21,24 @@ const Home = () => {
       <p className="homepage-layouts">3 Homepage Layouts</p>
       <div className="scroll-list">
         <div className="scroll-item">
-          <button className="button">Purchase Now</button>
-          <button className="button">View Demo</button>
+          <div className="scroll-item-black-layer">
+            <button className="button">Purchase Now</button>
+            <button className="button">View Demo</button>
+          </div>
         </div>
 
         <div className="scroll-item">
-          <button className="button">Purchase Now</button>
-          <button className="button">View Demo</button>
+          <div className="scroll-item-black-layer">
+            <button className="button">Purchase Now</button>
+            <button className="button">View Demo</button>
+          </div>
         </div>
 
         <div className="scroll-item">
-          <button className="button">Purchase Now</button>
-          <button className="button">View Demo</button>
+          <div className="scroll-item-black-layer">
+            <button className="button">Purchase Now</button>
+            <button className="button">View Demo</button>
+          </div>
         </div>
       </div>
       <div className="layouts-names">

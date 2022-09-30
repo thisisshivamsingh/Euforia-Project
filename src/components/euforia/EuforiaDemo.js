@@ -60,12 +60,12 @@ const EuforiaDemo = () => {
         </span>
       </div>
       <Slider images={imgArr} />
-      <div>
+      <div className="options-below-slider">
         <div className="background-circle">
-          <LocalShippingIcon />
+          <LocalShippingIcon className="localshippingicon-icon" />
         </div>
-        <h6>Free Shipping WorldWide</h6>
-        <p>On oreder over 100$</p>
+        <h6 className="headline">Free Shipping WorldWide</h6>
+        <p className="below-headine">On oreder over 100$</p>
       </div>
     </div>
   );

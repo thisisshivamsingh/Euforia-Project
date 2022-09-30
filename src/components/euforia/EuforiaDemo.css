@@ -26,3 +26,21 @@
   margin-top: 8px;
   margin-left: 20px;
 }
+
+.options-below-slider {
+  margin-top: 600px;
+}
+
+.background-circle {
+  display: inline-block;
+  border-radius: 50%;
+  background-color: #eeeeee;
+  width: 60px;
+  height: 60px;
+}
+
+.localshippingicon-icon {
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 5px;
+}
